@@ -24,12 +24,14 @@ def display_welcome_message():
 
 def display_list_of_lists(list_of_lists):
     """ Displays the list of lists """
+    # TODO: Add in the code for displaying the list_of_lists
 
 
 def generate(starting_list):
     """ Assumes that starting_list is a list.
         Generates a list_of_lists according to specification. """
     list_of_lists = []
+    # TODO: Add in the algorithm for generating the list of lists
     return list_of_lists
 
 
