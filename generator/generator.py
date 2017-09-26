@@ -24,24 +24,12 @@ def display_welcome_message():
 
 def display_list_of_lists(list_of_lists):
     """ Displays the list of lists """
-    for internal_list in list_of_lists:
-        print(*internal_list)
 
 
 def generate(starting_list):
     """ Assumes that starting_list is a list.
         Generates a list_of_lists according to specification. """
     list_of_lists = []
-    for first_item in starting_list:
-        for second_item in starting_list:
-            cloned_list = starting_list[:]
-            first_item_index = cloned_list.index(first_item)
-            second_item_index = cloned_list.index(second_item)
-            cloned_list[second_item_index], cloned_list[
-                first_item_index] = cloned_list[first_item_index], cloned_list[
-                    second_item_index]
-            if cloned_list not in list_of_lists:
-                list_of_lists.append(cloned_list)
     return list_of_lists
 
 
